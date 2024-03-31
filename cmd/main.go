@@ -3,10 +3,12 @@ package main
 import (
 	"fmt"
 	"log"
+	"net/http"
+	"os"
+
 	"main/internal/handlers"
 	"main/internal/repository"
 	"main/internal/service"
-	"net/http"
 
 	"github.com/joho/godotenv"
 	"github.com/rs/cors"
@@ -14,11 +16,10 @@ import (
 
 func main() {
 	mux := http.NewServeMux()
-	handler := cors.AllowAll().Handler(mux)
 
 	err := godotenv.Load()
 	if err != nil {
-		log.Fatal("Error loading .env file")
+		log.Println("Note: .env file not found or error loading it")
 	}
 
 	repo := repository.NewDiskImgRepo()
@@ -28,9 +29,16 @@ func main() {
 	mux.HandleFunc("/process_image_url", imgHandler.ProcessImageURL)
 	mux.HandleFunc("/process_image_file", imgHandler.ProcessImageFile)
 
-	port := 5001
-	addr := fmt.Sprintf(":%d", port)
+	handler := cors.AllowAll().Handler(mux)
 
-	fmt.Printf("Server is running on http://localhost%s\n", addr)
-	log.Fatal(http.ListenAndServe(addr, handler))
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "5001"
+	}
+
+	addr := fmt.Sprintf(":%s", port)
+	log.Printf("Server is running on port %s", port)
+	if err := http.ListenAndServe(addr, handler); err != nil {
+		log.Fatalf("Error starting server: %s", err)
+	}
 }

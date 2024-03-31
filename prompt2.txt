@@ -1,0 +1,143 @@
+Main Prompt - DONT BE LAZY - *IMPORTANT* DO NOT COPY THE EXAMPLES! - Please use your OWN WORDS and ANALYSIS DO NOT COPY TEXT FROM EXAMPLES! *IMPORTANT*:
+Detect and describe any plant deficiencies in the given image. Please provide information in the following format:
+
+Plant type title: [Plant Type or Unknown - ONLY ADD ONE PLANT TYPE PER RESPONSE - Make sure to add a blank line between the plant type and issues - do not add plant types to the Issues - the plant type is on the first line and there is only ONE for the whole response that you will give. If there are two plants in one image.. you will skip all plant types except the first one. WHATEVER YOU DO DO NOT ADD TWO PLANT TYPES TO THE RESPONSE.. Lets say there is a tomato plant and a strawberry plant.. you will COMBINE THE TWO into one line at the top.]
+
+Here begins the deficiency list so it's repeated: [Deficiency Title or Unknown]
+
+Issue description: [Description of the deficiency and its possible causes and solutions or Unknown - NEVER separate the description and suggestion(s) into separate lines, it must be on the same line. Do not forget to at least some sort of text for the description - otherwise the format of my components are messed up. Keep descriptions and suggestions short and on the same line no indentions or anything.]
+
+[Percentage or likeliness of the deficiency or 50.0 if the Issue is unknown - TRY TO GET THE PERCENTAGE]
+[DO NOT LEAVE ANYTHING BLANK OR OUT OF THE RESPONSE - NEVER add a 'Percentage:' label]
+[Repeat the above three lines for each identified deficiency - give as many as you can find - TRY TO LIST AT LEAST 3]
+
+
+
+
+
+Below are some examples for your reference - do not copy and do not leave parts of this format out. If you dont have a response for a specific line e.g the Plant Type line (the first line of every response) just put UNKNOWN. Except for percentages. Do not put the plant type, description + suggestion, or the percentages on the same lines. all of those must be separated. DO NOT COPY TEXT FROM EXAMPLES!!! 
+
+IMPORTANT -- THIS IS JUST AN EXAMPLE -- MUST INCLUDE SPACES INBETWEEN plant type, issue, issue description, and percentage (very important) -- Please follow this exact format for each response but DO NOT COPY ANY INFO OR TEXT IN THIS EXAMPLE be original - Remember, this is just an example. --
+
+Poinsettia
+
+Pottasium Deficiency
+
+This is a common problem with poinsettias, especially if they are not getting enough fertilizer. The leaves willstart to turn yellow and then brown, and they may eventually fall off. A way to fix this problem would be to feed your plant with etc etc etc..
+
+10%
+
+Calcium Deficiency
+
+Poinsettias suffering from calcium deficiency often display symptoms like distorted or necrotic (dead) leaf margins. To address this issue, consider incorporating a calcium-rich fertilizer into your routine. This can help improve cell wall structure and overall plant health. Additionally, ensure that the soil pH is within the appropriate range for optimal nutrient uptake.
+
+20%
+
+Magnesium Deficiency
+
+If your poinsettia exhibits yellowing between the veins of older leaves, it might be experiencing magnesium deficiency. To remedy this, try adding a magnesium-containing fertilizer to your watering routine. Magnesium is essential for chlorophyll production, and addressing this deficiency should promote healthier foliage.
+
+10%
+
+Iron Deficiency
+
+Yellowing of the younger leaves while the veins remain green may indicate an iron deficiency. Introduce an iron supplement, such as chelated iron, to the soil. Adjusting the soil pH can also enhance iron availability. Regular monitoring and proper supplementation will aid in restoring the vibrant green color to your poinsettia's leaves.
+
+80%
+
+Overwatering
+
+Poinsettias do not like to be overwatered, and this can cause the leaves to turn yellow and wilt. Water your plants less to solve is issue. 
+
+60%
+
+
+--
+[IMPORTANT: When you forget to add a description this is what happens - dont forget to add a description even if its short]:
+
+Tomato Plant
+Blossom End Rot
+
+Probability: The tomatoes on your tomato plant are developing blossom end rot, which is a common problem caused by a calcium deficiency. Calcium is an important nutrient for tomatoes, as it helps to strengthen the cell walls and prevent them from rotting. When a tomato plant is deficient in calcium, it can cause the tomatoes to develop blossom end rot, which is characterized by a brown or black spot on the bottom of the tomato. To correct this deficiency, you can add a calcium-rich fertilizer to the soil or use a calcium spray.
+
+
+-----
+
+[BELOW THIS LINE IS JUST AN EXAMPLE OF THE CORRECT FORMAT FOR TWO OR MORE PLANTS]:
+Tomato and Strawberry Plants
+
+
+Tomato Plant Blossom End Rot
+
+The tomatoes on your tomato plant are developing blossom end rot, which is a common problem caused by a calcium deficiency. Calcium is an important nutrient for tomatoes, as it helps to strengthen the cell walls and prevent them from rotting. When a tomato plant is deficient in calcium, it can cause the tomatoes to develop blossom end rot, which is characterized by a brown or black spot on the bottom of the tomato. To correct this deficiency, you can add a calcium-rich fertilizer to the soil or use a calcium spray.
+
+80%
+
+
+Strawberry Plant Leaf Scorch
+
+The strawberry plant leaves have brown spots, which is a common problem caused by a nutrient deficiency. The most likely cause is a magnesium deficiency. Magnesium is an important nutrient for strawberries, as it helps to produce chlorophyll, which is the green pigment that gives plants their color. When a strawberry plant is deficient in magnesium, it can cause the leaves to turn brown and develop brown spots. To correct this deficiency, you can add a magnesium-rich fertilizer to the soil or use a magnesium spray.
+
+70%
+
+
+
+--------
+[EXAMPLE OF INCORRECT FORMAT]:
+[Possible causes should be formatted as actual Issues. Example of incorrect format:]
+
+Unknown
+
+The leaves of your sweet potato plant have developed yellow spots, and you are not sure what is causing the problem. There are a number of possible causes, including nutrient deficiencies, fungal infections, and insect damage. To determine the cause of the problem, you should take a sample of the leaves to your local agricultural extension office. They will be able to help you identify the problem and recommend a solution.
+
+Probability: 50.0%
+
+
+[DONT DO THAT. Instead of including the possible causes in an Unknown issue description, separate them into issues for the issues list.]
+
+
+[DO NOT REPEAT ISSUES - DO NOT USE VAGUE ISSUE TITLES e.g. "Nutrient Deficiency" - SEPARATE OUT POSSIBLE CAUSES INTO ISSUES - "Magnesium Deficiency", "Potassium Deficiency, "Phosphorus Deficiency" etc.]
+[ANYTHING IN []'s IS JUST A NOTE FOR YOU AND SHOULD NOT BE INCLUDED IN THE RESPONSES]
+[INCORRECT Example below - DO NOT REPEAT ISSUE TITLES! DO NOT COPY TEXT FROM EXAMPLES!]:
+
+Nutrient Deficiency [Do not put this put Magnesium deficiency since that is what you are talking about in the description]
+
+The leaves of your hydrangea plant have developed yellow spots, which is a common problem caused by a magnesium deficiency. Magnesium is an important nutrient for hydrangeas, as it helps to produce chlorophyll, which is the green pigment that gives plants their color. When a hydrangea plant is deficient in magnesium, it can cause the leaves to turn yellow and develop yellow spots. To correct this deficiency, you can add a magnesium-rich fertilizer to the soil or use a magnesium spray.
+
+80%
+
+
+Nutrient Deficiency [Do not put this put Potassium deficiency since that is what you are talking about in the description]
+
+The leaves of your hydrangea plant have developed brown spots, which is a common problem caused by a potassium deficiency. Potassium is an important nutrient for hydrangeas, as it helps to regulate water uptake and transport nutrients throughout the plant. When a hydrangea plant is deficient in potassium, it can cause the leaves to turn brown and develop brown spots. To correct this deficiency, you can add a potassium-rich fertilizer to the soil or use a potassium spray.
+
+70%
+
+
+Nutrient Deficiency [Do not put this put Phosphorus deficiency since that is what you are talking about in the description]
+
+The leaves of your hydrangea plant have developed purple spots, which is a common problem caused by a phosphorus deficiency. Phosphorus is an important nutrient for hydrangeas, as it helps to promote root growth and flowering. When a hydrangea plant is deficient in phosphorus, it can cause the leaves to turn purple and develop purple spots. To correct this deficiency, you can add a phosphorus-rich fertilizer to the soil or use a phosphorus spray.
+
+60%
+
+
+[CORRECT FORMAT EXAMPLE : *IMPORTANT* Separate the possible causes into ISSUES - THESE ARE JUST EXAMPLES DO NOT COPY THE TEXT FROM THEM *IMPORTANT* ]:
+
+Magnesium Deficiency
+
+[INSERT ISSUE DESCRIPTION HERE]
+
+83.2%
+
+Postassium Deficiency
+
+[INSERT ISSUE DESCRIPTION HERE]
+
+77.1%
+
+Phosphorus Deficiency
+
+[INSERT ISSUE DESCRIPTION HERE]
+
+64.3%
+

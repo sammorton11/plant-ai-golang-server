@@ -1,0 +1,121 @@
+Main Prompt - ATTENTION: PLEASE REFRAIN FROM INACTIVITY - CRUCIAL AVOID MIMICKING THE EXAMPLES! - Kindly utilize YOUR OWN TERMINOLOGY and ASSESSMENTS. COPYING TEXT FROM EXAMPLES is strictly prohibited! CRITICAL:
+
+The primary objective is to identify and delineate any plant deficiencies apparent in the given image. Try to identify at least SIX possible deficiencies or issues. Do not include more than one plant in your response. Unless you combine the plant types together. Example would be "Tomato plant or Potato Plant". Kindly furnish information in the specified format:
+
+Plant Type Title: [Plant Type or Unknown - SELECT ONLY ONE PLANT TYPE PER RESPONSE - Ensure a clear demarcation between plant types with a vacant line]
+
+[The deficiency catalog begins here for emphasis]: [Deficiency Title or Unknown]
+
+Issue Description: [Never put 'Nutrient Deficiency' put the actual name of the deficiency. Expound upon the deficiency and its potential origins and resolutions or Unknown - NEVER disengage the description and suggestion(s) into distinct lines. They must align in a single line. It is imperative to include some text for the description - any deviation may disrupt the format of my components. Keep the descriptions and suggestions succinct and on the same line without indentation.]
+
+[Probability or likelihood of the deficiency or 50.0 if the Issue is unknown - Endeavor to incorporate the percentage]
+[DO NOT LEAVE ANY FIELD UNFILLED OR OMITTED - NEVER insert a 'Percentage:' label]
+[Reiterate the aforementioned three lines for each identified deficiency - endeavor to identify at least three]
+
+The exemplars below are for your reference alone - refrain from replication and ensure adherence to the exact format for every response. However, DO NOT QUOTE ANY INFORMATION OR TEXT FROM THESE EXAMPLES! Remember, these are only for illustration.
+
+Vital note: Whenever you overlook adding a description, the following transpires - never fail to include a description, even if succinct - otherwise, the format of my constituents becomes disrupted:
+
+Tomato Plant Blossom End Rot
+
+Certainty: The tomatoes on your tomato plant are developing blossom end rot, a common issue stemming from calcium deficiency. Calcium is indispensable for tomatoes as it fortifies cell walls, averting rot. A lack of calcium can lead to blossom end rot, characterized by brown or black spots at the tomato's base. Remediation involves administering a calcium-rich fertilizer to the soil or utilizing a calcium spray.
+
+80%
+
+[IMPORTANT: The subsequent section serves as an illustration of the correct format for two or more plants]:
+
+Tomato and Strawberry Plants
+
+Tomato Plant Blossom End Rot
+
+The tomatoes on your tomato plant are developing blossom end rot, a common issue stemming from calcium deficiency. Calcium is indispensable for tomatoes as it fortifies cell walls, averting rot. A lack of calcium can lead to blossom end rot, characterized by brown or black spots at the tomato's base. Remediation involves administering a calcium-rich fertilizer to the soil or utilizing a calcium spray.
+
+80%
+
+Strawberry Plant Leaf Scorch
+
+The strawberry plant leaves have brown spots, a prevalent issue attributable to nutrient deficiency. The likeliest culprit is magnesium deficiency. Magnesium is pivotal for strawberries, aiding chlorophyll production, which imparts the green hue to plants. A magnesium deficiency can manifest as brown spots on leaves. Addressing this involves employing a magnesium-rich fertilizer or spray.
+
+70%
+
+[EXAMPLE OF INCORRECT FORMAT]:
+[Possible causes should be formatted as actual Issues. Example of incorrect format:]
+
+Unknown
+
+The leaves of your sweet potato plant have developed yellow spots, and you are not sure what is causing the problem. There are a number of possible causes, including nutrient deficiencies, fungal infections, and insect damage. To determine the cause of the problem, you should take a sample of the leaves to your local agricultural extension office. They will be able to help you identify the problem and recommend a solution.
+
+Certainty: 50.0%
+
+[DON'T DO THAT. Instead of including the possible causes in an Unknown issue description, separate them into issues for the issues list.]
+
+[DO NOT REPEAT ISSUES - DO NOT USE VAGUE ISSUE TITLES e.g. "Nutrient Deficiency" - SEPARATE OUT POSSIBLE CAUSES INTO ISSUES - "Magnesium Deficiency", "Potassium Deficiency, "Phosphorus Deficiency" etc.]
+
+[ANYTHING IN []'s IS JUST A NOTE FOR YOU AND SHOULD NOT BE INCLUDED IN THE RESPONSES]
+
+[INCORRECT Example below - DO NOT REPEAT ISSUE TITLES! DO NOT COPY TEXT FROM EXAMPLES!]:
+
+Nutrient Deficiency [Do not put this put Magnesium deficiency since that is what you are talking about in the description]
+
+The leaves of your hydrangea plant have developed yellow spots, which is a common problem caused by a magnesium deficiency. Magnesium is an important nutrient for hydrangeas, as it helps to produce chlorophyll, which is the green pigment that gives plants their color. When a hydrangea plant is deficient in magnesium, it can cause the leaves to turn yellow and develop yellow spots. To correct this deficiency, you can add a magnesium-rich fertilizer to the soil or use a magnesium spray.
+
+80%
+
+Nutrient Deficiency [IMPORTANT!!! Do not put 'Nutrient Deficiency' put 'Potassium Deficiency' since that is what you are talking about in the description]
+
+The leaves of your hydrangea plant have developed brown spots, which is a common problem caused by a potassium deficiency. Potassium is an important nutrient for hydrangeas, as it helps to regulate water uptake and transport nutrients throughout the plant. When a hydrangea plant is deficient in potassium, it can cause the leaves to turn brown and develop brown spots. To correct this deficiency, you can add a potassium-rich fertilizer to the soil or use a potassium spray.
+
+70%
+
+Nutrient Deficiency [IMPORTANT! Do not put 'Nutrient Deficiency' for titles put Phosphorus deficiency since that is what you are talking about in the description]
+
+The leaves of your hydrangea plant have developed purple spots, which is a common problem caused by a phosphorus deficiency. Phosphorus is an important nutrient for hydrangeas, as it helps to promote root growth and flowering. When a hydrangea plant is deficient in phosphorus, it can cause the leaves to turn purple and develop purple spots. To correct this deficiency, you can add a phosphorus-rich fertilizer to the soil or use a phosphorus spray.
+
+60%
+
+[CORRECT FORMAT EXAMPLE : IMPORTANT Separate the possible causes into ISSUES - THESE ARE JUST EXAMPLES DO NOT COPY THE TEXT FROM THEM IMPORTANT ]:
+
+Magnesium Deficiency
+
+[INSERT ISSUE DESCRIPTION HERE]
+
+83.2%
+
+Postassium Deficiency
+
+[INSERT ISSUE DESCRIPTION HERE]
+
+77.1%
+
+Phosphorus Deficiency
+
+[INSERT ISSUE DESCRIPTION HERE]
+
+64.3%
+
+
+
+[Example of a correct response below - DO NOT COPY TEXT FROM EXAMPLES!]:
+
+Tomato Plant
+
+
+Blossom End Rot
+
+The tomatoes on your tomato plant are developing blossom end rot, a common issue stemming from calcium deficiency. Calcium is indispensable for tomatoes as it fortifies cell walls, averting rot. A lack of calcium can lead to blossom end rot, characterized by brown or black spots at the tomato's base. Remediation involves administering a calcium-rich fertilizer to the soil or utilizing a calcium spray.
+
+80%
+
+
+Bacterial Spot
+
+The tomato plant leaves have developed black spots, a prevalent issue attributable to a bacterial infection. The likeliest culprit is bacterial spot, caused by the bacterium Xanthomonas vesicatoria. Bacterial spot can manifest as black spots on leaves, stems, and fruit. Addressing this involves employing a copper-based bactericide or removing and destroying infected plant material.
+
+70%
+
+
+Septoria Leaf Spot
+
+The tomato plant leaves have developed brown spots, a prevalent issue attributable to a fungal infection. The likeliest culprit is Septoria leaf spot, caused by the fungus Septoria lycopersici. Septoria leaf spot can manifest as brown spots on leaves, which can eventually lead to defoliation. Addressing this involves employing a fungicide or removing and destroying infected plant material.
+
+60%
